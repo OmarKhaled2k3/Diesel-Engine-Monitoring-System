@@ -33,7 +33,6 @@ This project is a real-time monitoring solution for diesel engines, utilizing va
    pip install -r requirements.txt
    ```
 ## Schematic
-- Fritizing project available under the folder Schematic
 ![Schematic_bb](https://github.com/user-attachments/assets/d5601a30-e711-4dda-805a-71bf78858b3d)
 
 ## Requirements
