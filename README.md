@@ -39,6 +39,9 @@ This project is a real-time monitoring solution for diesel engines, utilizing va
 - Libraries: `matplotlib`, `pandas`, `numpy`, `scipy`
 - Serial communication library (e.g., `pyserial`)
 
+## Schematic
+- Fritizing project available under the folder Schematic
+
 ## Usage
 - **Real-Time Monitoring**: Visualize engine data while the engine is operating.
 - **Failure Prediction**: Run the data through an AI model for fault detection and anomaly classification.
