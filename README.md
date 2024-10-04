@@ -12,8 +12,8 @@ This project is a real-time monitoring solution for diesel engines, utilizing va
 - **AI Analysis**: Generates a report from collected data to feed into an AI model, which assesses engine health and detects anomalies.
 
 ## Components
-1. **MAX6675 Thermocouple**: Measures temperature of different engine components.
-2. **Vibration Sensors**: Detect irregularities in engine movement.
+1. **MAX6675 K-Thermocouple- to-Digital Converter (0C to +1024C)**: Measures temperature of different engine components.
+2. **Vibration Sensors Module (801S)**: Detect irregularities in engine movement.
 3. **Piezo Vibration Sensor**: Provides detailed vibration profiles.
 4. **Arduino Mega 2560**: Acts as the interface for reading sensor data and sending it to the Python script.
 
@@ -26,21 +26,17 @@ This project is a real-time monitoring solution for diesel engines, utilizing va
 ## Installation
 1. **Clone the Repository**
    ```
-   git clone https://github.com/yourusername/diesel-engine-monitor.git
+   git clone https://github.com/OmarKhaled2k3/Diesel-Engine-Monitoring-System.git
    ```
 2. **Install Dependencies**
    ```
    pip install -r requirements.txt
    ```
-3. **Run the System**
-   ```
-   python engine_monitor.py
-   ```
 
 ## Requirements
 - Arduino Mega 2560
-- Python 3.8+
-- Libraries: `matplotlib`, `pandas`, `numpy`, `scikit-learn`
+- Python 3.7+
+- Libraries: `matplotlib`, `pandas`, `numpy`, `scipy`
 - Serial communication library (e.g., `pyserial`)
 
 ## Usage
