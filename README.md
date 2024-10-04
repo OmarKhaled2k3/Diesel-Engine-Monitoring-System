@@ -32,15 +32,15 @@ This project is a real-time monitoring solution for diesel engines, utilizing va
    ```
    pip install -r requirements.txt
    ```
+## Schematic
+- Fritizing project available under the folder Schematic
+![Schematic_bb](https://github.com/user-attachments/assets/d5601a30-e711-4dda-805a-71bf78858b3d)
 
 ## Requirements
 - Arduino Mega 2560
 - Python 3.7+
 - Libraries: `matplotlib`, `pandas`, `numpy`, `scipy`
 - Serial communication library (e.g., `pyserial`)
-
-## Schematic
-- Fritizing project available under the folder Schematic
 
 ## Usage
 - **Real-Time Monitoring**: Visualize engine data while the engine is operating.
@@ -50,6 +50,9 @@ This project is a real-time monitoring solution for diesel engines, utilizing va
 - Predictive maintenance for diesel engines.
 - Early detection of engine faults to prevent costly repairs.
 - Performance monitoring and logging for further analysis.
+
+## Data Collected Visualized View
+![DataExtractedV3](https://github.com/user-attachments/assets/21bc4b03-f582-4edb-b49b-c7234a4c174f)
 
 ## Future Improvements
 - Integrate wireless communication for remote monitoring.
